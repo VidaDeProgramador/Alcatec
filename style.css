@@ -472,40 +472,26 @@ section {
     display: flex;
 }
 
+.cartoes-moni h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
 .divi2 {
     width: 5px;
 }
 
 .cartoes-moni p {
     text-align: center;
-    margin-top: -10px;
     font-width: 500px;
-}
-
-.portugues h1 {
-    text-align: center;
-    margin-top: -7px;
-    margin-right: 20px;
-    font-size: 18px;
-}
-
-.mat h1 {
-    text-align: center;
-    margin-top: -7px;
-
-    font-size: 18px;
-}
-
-.fisica h1 {
-    text-align: center;
-    margin-top: -7px;
-    margin-right: -20px;
-    font-size: 18px;
 }
 
 .cartoes-moni img {
     width: 90px;
-    margin-top: -10px;
+}
+
+.portugues {
+    margin-right: 20px;
 }
 
 .card-teams {
@@ -645,6 +631,7 @@ section {
 
     .meiocontent p {
         text-align: center;
+        margin-left: -102px;
     }
 
     /* ----------------- Cartões ---------------- */
@@ -1052,6 +1039,7 @@ section {
     .meiocontent p {
         font-size: 23px;
         text-align: center;
+        margin-left: -260px;
     }
 
     .textoa1 {
