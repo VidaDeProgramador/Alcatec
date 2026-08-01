@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Alcatec</title>
+    <style>
+        @font-face {
+            font-family: 'zitgraff';
+            src: url(ZITGRAFF.TTF);
+        }
+
+        a1-titulo h1 {
+            text-align: center;
+            font-family: zitgraff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div class="btn-expand">
+                <i class="bi bi-arrow-right-circle" id="btn-exp"></i>
+            </div>
+            <div class="itens">
+                <ul>
+                    <li class="menu-itens">
+                        <a href="#home">
+                            <span class="icon"><i class="bi bi-house"></i></span>
+                            <span class="txt-link">Início</span>
+                        </a>
+                    </li>
+                    <li class="menu-itens">
+                        <a href="#people">
+                            <span class="icon"><i class="bi bi-people"></i></span>
+                            <span class="txt-link">Integrantes</span>
+                        </a>
+                    </li>
+                    <li class="menu-itens">
+                        <a href="#study">
+                            <span class="icon"><i class="bi bi-mortarboard"></i></span>
+                            <span class="txt-link">Monitoria</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main-container">
+            <header class="header-content">
+                <div class="logo">
+                    <img src="images/logo-alcatec.png" alt="Logo">
+                    <img src="images/tipografia.png" id="tipo">
+                </div>
+            </header>
+
+            <main class="main">
+                <div class="interface">
+                    <section class="page1" id="home">
+                        <div class="page1-layout">
+                            <div class="category1">
+                                <h1>Início</h1>
+                            </div>
+
+                            <div class="column a1">
+                                <div class="a1-titulo">
+                                    <h1 class="saa">somos a alcatec!</h1>
+                                </div>
+                                <div class="a1-meio">
+                                    <img src="images/logosomb.png" alt="logo" class="logoa1">
+                                    <div class="meiocontent">
+                                        <h1>Bem-vindos ao nosso site!</h1>
+                                        <p>É um prazer tê-lo aqui!</p>
+                                    </div>
+                                </div>
+                                <div class="textoa1">
+                                    <p>Nós somos a Alcatec e esse é o site do Grêmio Estudantil, usado para divulgar
+                                        informações,
+                                        avisos, eventos e novidades da escola para os alunos.</p>
+                                </div>
+                            </div>
+
+                            <div class="column a2">
+                                <div class="a2-content other-content">
+                                    <div class="divi">
+                                        <img src="images/edivi.gif" alt="divisória">
+                                    </div>
+                                    <div class="cartoes">
+                                        <div>
+                                            <img src="images/insta.png" alt="insta">
+                                            <button type="button" class="btn btn-default"
+                                                onclick="window.open('https://www.instagram.com/alcatec_sr/', '_blank', 'noopener,noreferrer')">
+                                                Instagram
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <img src="images/monitoria1.png" alt="monitoria" target="_blank">
+                                            <button type="button" class="btn btn-default"
+                                                onclick="window.location.href='#study'">Monitoria</button>
+                                        </div>
+                                        <div>
+                                            <img src="images/sugestoes.png" alt="sugestões" target="_blank">
+                                            <button type="button" class="btn btn-default">Sugestões</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column a3">
+                                <div class="a3-content other-content">
+                                    <div class="divi">
+                                        <img src="images/edivi.gif" alt="divisória">
+                                    </div>
+                                    <div class="textos-car">
+                                        <div>
+                                            <h1>O que é Grêmio Estudantil?</h1>
+                                            <p>O grêmio estudantil é um grupo formado por alunos que representa os
+                                                estudantes da escola. Ele ajuda a organizar atividades, eventos e
+                                                projetos, além de levar as opiniões e sugestões dos alunos para a
+                                                escola.</p>
+                                        </div>
+                                        <div>
+                                            <h1>Função do Grêmio Estudantil</h1>
+                                            <p>A função do grêmio estudantil é representar os alunos da escola, ouvir
+                                                suas ideias e ajudar a organizar atividades, eventos e projetos. Ele
+                                                serve para dar mais voz aos estudantes e melhorar a participação deles
+                                                na escola.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="page2" id="people">
+                        <div class="page2-layout">
+                            <div class="category2">
+                                <h1>Integrantes da Chapa</h1>
+                            </div>
+
+                            <div class="card-grid">
+                                <div class="card-int">
+                                    <img src="images/Helena.jpeg" alt="Helena">
+                                    <div class="card-content">
+                                        <h3>Helena</h3>
+                                        <p>Presidente</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Pedro (Tafe).jpeg" alt="Pedro">
+                                    <div class="card-content">
+                                        <h3>Pedro</h3>
+                                        <p>Vice-Presidente</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Luiz.jpeg" alt="Luiz">
+                                    <div class="card-content">
+                                        <h3>Luiz</h3>
+                                        <p>Orador</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Rafael.jpeg" alt="Rafael">
+                                    <div class="card-content">
+                                        <h3>Rafael</h3>
+                                        <p>Tesoureiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Ariel.jpeg" alt="Ariel">
+                                    <div class="card-content">
+                                        <h3>Ariel</h3>
+                                        <p>Tesoureiro</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Larissa.jpeg" alt="Larissa">
+                                    <div class="card-content">
+                                        <h3>Larissa</h3>
+                                        <p>Secretária</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Sara.jpeg" alt="Sara">
+                                    <div class="card-content">
+                                        <h3>Sara</h3>
+                                        <p>Secretária</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Beatriz.jpeg" alt="Beatriz">
+                                    <div class="card-content">
+                                        <h3>Beatriz</h3>
+                                        <p>Diretora Social</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Laura.jpeg" alt="Laura">
+                                    <div class="card-content">
+                                        <h3>Laura</h3>
+                                        <p>Diretora de Imprensa</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Caue.jpeg" alt="Cauê">
+                                    <div class="card-content">
+                                        <h3>Cauê</h3>
+                                        <p>Diretor de Esportes</p>
+                                    </div>
+                                </div>
+
+                                <div class="card-int">
+                                    <img src="images/Viktor.jpeg" alt="Viktor">
+                                    <div class="card-content">
+                                        <h3>Viktor</h3>
+                                        <p>Diretor de Cultura</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="page3" id="study">
+                        <div class="page3-layout">
+                            <div class="category3">
+                                <h1>Monitoria de Estudos</h1>
+                            </div>
+
+                            <div class="column b1">
+                                <div class="b1-content">
+                                    <h1>sobre a monitoria</h1>
+                                    <p>A monitoria online é um projeto voltado para os alunos do 1º ano, com foco nas
+                                        matérias de Matemática, Física e Português. O objetivo é ajudar quem está com
+                                        dificuldades, revisar os conteúdos e tirar dúvidas de forma simples!</p>
+                                </div>
+                            </div>
+
+                            <div class="divi2 estrelas-top">
+                                <img src="images/divi.gif">
+                            </div>
+
+                            <div class="column b2">
+                                <div class="b2-content other-content">
+                                    <h1>Monitores</h1>
+                                    <div class="cartoes-moni">
+                                        <div class="portugues">
+                                            <img src="images/port.png">
+                                            <h1>Português</h1>
+                                            <p>Laura</p>
+                                        </div>
+                                        <div class="mat">
+                                            <img src="images/mat.png">
+                                            <h1>Matématica</h1>
+                                            <p>Helena</p>
+                                        </div>
+                                        <div class="fisica">
+                                            <img src="images/fisic.png">
+                                            <h1>Física</h1>
+                                            <p>Ariel</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="divi2 estrelas-bottom">
+                                        <img src="images/divi.gif">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="card-teams">
+                                <div class="card-teams-content">
+                                    <h1>Equipe do Microsoft Teams</h1>
+                                    <p>Clique no botão abaixo para acessar a equipe.</p>
+                                    <a href="https://teams.cloud.microsoft/l/team/19%3ALLqa-49Nwg5AI3FVGsK7VeAVpTPPYcdpJYVoGLlW5Rs1%40thread.tacv2/conversations?groupId=d16ad935-a34b-41b5-87ce-359c26e44212&tenantId=eabe64c5-68f5-4a76-8301-9577a679e449"
+                                        target="_blank" class="button">Acessar Equipe</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
